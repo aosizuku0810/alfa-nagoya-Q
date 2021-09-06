@@ -17,25 +17,34 @@
   </svg>
   <header class="header">
     <div class="container">
-      <div class="header__logo"><img src="assets/images/logo.svg" alt="チームロゴ"></div>
+      <div class="header__logo"><img src="一番上のやつ.PNG" alt="チームロゴ"></div>
       <div class="header__name">N・S高生制作サイト</div>
     </div>
   </header>
   <main class="main main-page">
     <!-- タイトルエリア　ここから -->
-    <h1 class="main-title"><img src="assets/images/main-image.png" alt="封鎖された家庭科室からの脱出"></h1>
+    <h1 class="main-title"><img src="無題500-20210903110533.PNG" alt="本能寺の変からの脱出〜マヨ子と謎の石〜"></h1>
     <!-- タイトルエリア　ここまで -->
     <div id="stage">
 
       <!-- STAGE1　ここから -->
       <div id="sectionStage1" class="stage">
+        <p>
+           迷子｢ししょー！！！なんか、織田信長が寝てるっすよ！｣<br>
+           どうやら、疑っている余地は無いようだ。<br>
+           迷子｢で、なんか扉があかなくて〜｣<br>
+           迷子｢これが貼っつけてあったんすよね！｣<br>
+           写真が送られてきた。これは…クロスワードパズル？<br>
+           …こんな問題に時間をかけてはいられない。<br>
+           さて、謎解きといこうか。<br>
+        </p>
 
         <!-- STAGE1問題セクション　ここから -->
         <section class="section">
           <div class="container">
             <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：1</span>さぁゲームを始めよう！</h2>
-            <p class="text-center">まずは、この学校の家庭科室の鍵のありかを知らなければ入ることができない。<br>
-              下の画像の謎を解き、鍵のありかをキーワード欄に入力しよう。</p>
+            <p class="text-center">寝ている信長に気づかれずに脱出しよう!<br>
+              部屋に鍵がかかっている下の画像の謎を解き、答えをキーワード欄に入力しよう。</p>
             <p class="text-center">困ったときは、ヒントがある。なるべく見ないようにゲームを進めていこう。</p>
   
             <div class="container">
@@ -68,7 +77,7 @@ Youtube貼り付けここまで -->
               1番麺の引数 $event は正解、不正解の判定を受け取る変数です。
               []、()の間違い、''の抜けがあると動きません。
             ------------------------------------------------------------------------------------------------------------>
-            <answer-input v-bind:correct="correctAnswer['stage1']['q1']" v-on:answer-input="answerInput($event, 'stage1', 1)"></answer-input>
+            <answer-input v-bind:correct="correctAnswer['stage1']['q1']" v-on:answer-input="answerInput($event, 'ほんのうじ', 1)"></answer-input>
 
             <a class="link-hint" href="hint1.html" target="hint1">ヒントをみる ></a>
           </div>
@@ -85,7 +94,7 @@ Youtube貼り付けここまで -->
           <div class="container">
             <div class="clear-message">
               <div class="clear-message__title">STAGE：１  クリア！</div>
-              <div class="clear-message__content">家庭科室の扉が開いた！<br>
+              <div class="clear-message__content">扉が開いた！<br>
                 さぁ先生を助けるため<br>
                 ３つステージの謎をとき、暗号を見つけ出そう！</div>
               <button v-on:click="nextStage('stage1')" onclick="location.href='#sectionStage2'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
