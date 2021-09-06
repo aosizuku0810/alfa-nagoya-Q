@@ -36,7 +36,7 @@ const app = Vue.createApp({
       *  ex. 問題2-3を追加する場合は配列にfalseを追加します。
       */
       answer: {
-        stage1: [
+        stage1: [ほんのうじ
           false,
         ],
         stage2: [
