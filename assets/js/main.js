@@ -41,7 +41,7 @@ const app = Vue.createApp({
           false, // 3
          ]
       },
-
+}                        
       /* ステージの問題が全て正解かどうか */
       clear: {
         stage1: false,
