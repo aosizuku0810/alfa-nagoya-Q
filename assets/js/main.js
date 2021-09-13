@@ -39,9 +39,8 @@ const app = Vue.createApp({
           
         ],
         stage3: [
-          false, // 3-1
-         
-        ]
+          false, // 3
+         ]
       },
 
       /* ステージの問題が全て正解かどうか */
