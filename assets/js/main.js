@@ -50,7 +50,7 @@ const app = Vue.createApp({
         stage4: [
           false,
         ],  
-        stage4: [
+        stage5: [
           false,
         ]
       },
