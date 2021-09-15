@@ -25,6 +25,9 @@ const app = Vue.createApp({
         },
         stage3: {
           q1: 'ぽるとがる',
+        },
+        stage4: {
+          q1: '茶色',
         }
       },
       
@@ -48,6 +51,7 @@ const app = Vue.createApp({
         stage1: false,
         stage2: false,
         stage3: false,
+        stage4: false,
       },
 
       /* 次のステージを表示するかどうか
