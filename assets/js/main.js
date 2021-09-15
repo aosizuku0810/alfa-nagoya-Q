@@ -45,6 +45,7 @@ const app = Vue.createApp({
           false, // 3-1
         ],
         stage4: [
+          false,
         ]  
       },
                       
